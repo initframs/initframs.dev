@@ -1,0 +1,15 @@
+@keyframes fadeBlink {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+.blink {
+    animation: fadeBlink 1s infinite;
+}

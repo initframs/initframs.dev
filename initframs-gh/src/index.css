@@ -1,3 +1,31 @@
 :root {
-  font-family: sans-serif;
+  font-family: '0xProto Nerd Font Mono';
+  --base: #0c091a;
+  --fg: #f8f8f8;
+  --lavender: #a4a4ff;
+}
+
+html,
+body {
+  background-color: var(--base);
+  color: var(--lavender);
+}
+
+.header {
+  font-size: 3rem;
+  margin: 5rem;
+}
+
+.terminal-cursor {
+  font-weight: 700;
+  margin: 0;
+  margin-left: 1rem;
+}
+
+.projects-list {
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 5vw;
 }

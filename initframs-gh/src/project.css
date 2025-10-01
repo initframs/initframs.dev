@@ -1,0 +1,18 @@
+.project-card {
+    max-width: 25vw;
+}
+
+.project-image {
+    max-width: 100%;
+    margin-bottom: 8px;
+}
+
+.project-header {
+    font-size: 2rem;
+    margin: 8px 0;
+}
+
+.project-text {
+    font-size: 1.4rem;
+    color: #555;
+}
