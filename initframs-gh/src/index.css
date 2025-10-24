@@ -22,6 +22,10 @@ body {
   margin-left: 1rem;
 }
 
+.terminal-cursor-hidden {
+  display: none;
+}
+
 .projects-list {
   width: 90vw;
   display: flex;

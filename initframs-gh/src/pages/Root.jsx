@@ -11,12 +11,23 @@ const Root = () => {
         hi, i'm initframs
         <span className={blinking ? "terminal-cursor blink" : "terminal-cursor"}>_</span>
       </h1>
-      {/* <div className="projects-list">
+      <div className="projects-list">
         <Project
-          header="My First Project"
-          text="This is a description of my first project. It showcases amazing features and cool design."
+          header="// tools"
+          text="a set of useful design/coding related tools made by me"
+          link="#"
         />
-      </div> */}
+        <Project
+          header="// portfolio"
+          text="curated selection of sites and projects i've made"
+          link="#"
+        />
+        <Project
+          header="// stacks"
+          text="my dotfiles, preferred software choices and fav themes"
+          link="#"
+        />
+      </div>
     </>
   );
 };
