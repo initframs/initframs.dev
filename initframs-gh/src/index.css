@@ -11,6 +11,10 @@ body {
   color: var(--lavender);
 }
 
+.jp {
+  font-family: 'Rii Tegaki N';
+}
+
 .header {
   font-size: 3rem;
   margin: 5rem;

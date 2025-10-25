@@ -1,13 +1,13 @@
 import { Route, Switch } from "wouter";
 import Root from "./pages/Root";
-
+import NotFound from "./pages/NotFound";
 const App = () => (
   <>
     <Switch>
       <Route path="/">
-        <Root/>
+        <Root />
       </Route>
-      <Route>404, Not Found!</Route>
+      <Route><NotFound /></Route>
     </Switch>
   </>
 );
