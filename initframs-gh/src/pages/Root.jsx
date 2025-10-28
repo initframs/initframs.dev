@@ -15,7 +15,7 @@ const Root = () => {
         <Project
           header="// tools"
           text="a set of useful design/coding related tools made by me"
-          link="#"
+          link="tools"
         />
         <Project
           header="// portfolio"
