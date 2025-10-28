@@ -1,5 +1,5 @@
 :root {
-  font-family: '0xProto Nerd Font Mono';
+  font-family: '0xProto Nerd Font Mono', monospace;
   --base: #0c091a;
   --fg: #f8f8f8;
   --lavender: #a4a4ff;
@@ -11,8 +11,12 @@ body {
   color: var(--lavender);
 }
 
+html[lang="ja"] {
+  font-family: 'Rii Tegaki N', monospace;
+}
+
 .jp {
-  font-family: 'Rii Tegaki N';
+  font-family: 'Rii Tegaki N', monospace;
 }
 
 .header {
