@@ -1,0 +1,79 @@
+html,
+body {
+    background-color: lime;
+    text-align: center;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+#gif {
+    width: 128px;
+    margin: 20px;
+}
+
+h1 {
+    color: blue;
+    font-size: 80px;
+    margin: 20px;
+}
+
+marquee {
+    width: 100%;
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#counter-big {
+    position: absolute;
+    top: 40px;
+    left: 80px;
+    font-size: 40px;
+}
+
+#counter-big span {
+    display: inline-block;
+    background-color: black;
+    color: yellow;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 50px;
+}
+
+#bandconditionsnotice {
+    font-size: 20px;
+}
+
+#bandconditionsnotice span {
+    color: #ff00ff;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+blink {
+    animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+    0% {
+        visibility: visible;
+    }
+
+    50% {
+        visibility: visible;
+    }
+
+    50% {
+        visibility: hidden;
+    }
+
+    75% {
+        visibility: visible;
+    }
+}
